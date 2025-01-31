@@ -79,7 +79,6 @@ export default defineConfig((/* ctx */) => {
         port: 8080
       }
     },
-
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#framework
     framework: {
       config: {},
