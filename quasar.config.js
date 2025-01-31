@@ -5,6 +5,14 @@ import { defineConfig } from '#q-app/wrappers'
 
 export default defineConfig((/* ctx */) => {
   return {
+    devServer: {
+      // Habilitando HTTPS no servidor de desenvolvimento
+      https: true,
+      open: true, // Abre o navegador automaticamente ao iniciar
+      host: '0.0.0.0', // Permite conexões externas
+      port: 8080,      // Porta do servidor
+      allowedHosts: 'all', // Permite hosts específicos
+    },
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
     // preFetch: true,
 
@@ -70,10 +78,10 @@ export default defineConfig((/* ctx */) => {
     },
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#devserver
-    devServer: {
+   // devServer: {
       // https: true,
-      open: true // opens browser window automatically
-    },
+    //  open: true // opens browser window automatically
+  //  },
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#framework
     framework: {
