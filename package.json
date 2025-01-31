@@ -12,7 +12,10 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "postinstall": "quasar prepare"
+    "postinstall": "quasar prepare",
+    "restart": "npm run stop && npm run start",
+    "start": "nohup quasar dev --port 8080 > quasar.log 2>&1 & echo $! > quasar.pid",
+    "stop": "[ -f quasar.pid ] && kill $(cat quasar.pid) && rm -f quasar.pid || echo 'Nenhum processo encontrado'"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
