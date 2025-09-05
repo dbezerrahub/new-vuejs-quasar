@@ -1,8 +1,8 @@
 {
-  "name": "paynbox",
+  "name": "appvitae",
   "version": "0.0.1",
-  "description": "Recebimento de faturas digitais",
-  "productName": "paynbox app",
+  "description": "app de currículo",
+  "productName": "app vitae",
   "author": "Diogo <diogobezerra5@gmail.com>",
   "type": "module",
   "private": true,
@@ -14,26 +14,28 @@
     "build": "quasar build",
     "postinstall": "quasar prepare",
     "restart": "npm run stop && npm run start",
-    "start": "nohup quasar dev --port 8080 > quasar.log 2>&1 & echo $! > quasar.pid",
-    "stop": "[ -f quasar.pid ] && kill $(cat quasar.pid) && rm -f quasar.pid || echo 'Nenhum processo encontrado'"
+    "start": "quasar dev --debug --port 443 > server.log 2>&1 & echo $! > server.pid",
+    "stop": "[ -f server.pid ] && kill $(cat server.pid) && rm -f server.pid",
+    "android": "cp capacitor.config.dev.json capacitor.config.json && quasar build && npx cap sync android && sudo chmod -R 777 /paynbox"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
+    "pinia": "^3.0.3",
     "quasar": "^2.16.0",
     "vue": "^3.4.18",
     "vue-router": "^4.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.14.0",
+    "@quasar/app-vite": "^2.0.0",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "autoprefixer": "^10.4.2",
     "eslint": "^9.14.0",
     "eslint-plugin-vue": "^9.30.0",
     "globals": "^15.12.0",
-    "vite-plugin-checker": "^0.8.0",
-    "@vue/eslint-config-prettier": "^10.1.0",
+    "postcss": "^8.4.14",
     "prettier": "^3.3.3",
-    "@quasar/app-vite": "^2.0.0",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.14"
+    "vite-plugin-checker": "^0.8.0"
   },
   "engines": {
     "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",

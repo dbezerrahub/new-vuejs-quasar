@@ -5,10 +5,10 @@
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
         <q-toolbar-title>
-          Quasar App
+Diogo dsda
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>Quasar  v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -31,6 +31,19 @@
 <script setup>
 import { ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
+import { watch } from 'vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+
+// Force HMR workaround
+if (import.meta.hot) {
+  watch(() => route.path, (newPath) => {
+    if (newPath.includes('/app')) {
+      import.meta.hot.send('vue:reload')
+    }
+  })
+}
 
 const linksList = [
   {
