@@ -16,10 +16,12 @@
     "restart": "npm run stop && npm run start",
     "start": "quasar dev --debug --port 443 > server.log 2>&1 & echo $! > server.pid",
     "stop": "[ -f server.pid ] && kill $(cat server.pid) && rm -f server.pid",
-    "android": "cp capacitor.config.dev.json capacitor.config.json && quasar build && npx cap sync android && sudo chmod -R 777 /paynbox"
+    "copy_capacitor_config": "cp capacitor.config.dev.json capacitor.config.json",
+    "android": "cp capacitor.config.dev.json capacitor.config.json && quasar build && npx cap sync android && sudo chmod -R 777 /callauth"
   },
   "dependencies": {
     "@capacitor-community/sqlite": "^7.0.2",
+    "@capacitor/android": "^7.4.4",
     "@quasar/extras": "^1.16.4",
     "pinia": "^3.0.3",
     "quasar": "^2.16.0",

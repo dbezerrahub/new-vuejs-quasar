@@ -36,7 +36,7 @@ for f in "${files[@]}"; do
 done
 
 npx cap sync android
-sudo chmod -R 777 /paynbox
+sudo chmod -R 777 /callauth
 
 git add .
 git commit -m "$commit" || echo "⚠️ Nenhuma alteração para commitar"

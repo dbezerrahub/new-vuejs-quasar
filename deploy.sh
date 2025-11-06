@@ -4,8 +4,8 @@
 PRIVATE_KEY_PATH="/home/diogo/.ssh/DEV_DIOGO_PRIVATE_KEY.pem"
 REMOTE_USER="diogo"
 REMOTE_HOST="54.88.250.35"
-REMOTE_PATH="/var/www/html/paynbox-dist"
-LOCAL_PATH="/paynbox/dist"
+REMOTE_PATH="/var/www/html/callauth-dist"
+LOCAL_PATH="/callauth/dist"
 SSH_PORT=2220
 
 BRANCH=$1
