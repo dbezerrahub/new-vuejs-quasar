@@ -1,0 +1,16 @@
+{
+    "compact": true,
+    "controlFlowFlattening": false,
+    "controlFlowFlatteningThreshold": 0.5,
+    "numbersToExpressions": true,
+    "simplify": true,
+    "stringArray": true,
+    "stringArrayEncoding": [
+        "rc4"
+    ],
+    "stringArrayThreshold": 0.5,
+    "rotateStringArray": true,
+    "selfDefending": true,
+    "debugProtection": true,
+    "disableConsoleOutput": true
+}
