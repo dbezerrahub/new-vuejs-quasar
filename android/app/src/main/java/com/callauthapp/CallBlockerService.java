@@ -2,6 +2,7 @@ package com.callauthapp;
 
 import android.telecom.Call;
 import android.telecom.CallScreeningService;
+import android.widget.Toast;
 
 public class CallBlockerService extends CallScreeningService {
 
@@ -10,6 +11,13 @@ public class CallBlockerService extends CallScreeningService {
 
         String incomingNumber = details.getHandle().getSchemeSpecificPart();
 
+        // Mostrar Toast com o número
+        new android.os.Handler(getMainLooper()).post(() -> {
+            Toast.makeText(getApplicationContext(),
+                    "Ligação de: " + incomingNumber,
+                    Toast.LENGTH_LONG
+            ).show();
+        });
         if (incomingNumber.equals("+5511999999999")) {  // número a bloquear
             CallResponse response = new CallResponse.Builder()
                     .setDisallowCall(true)        // bloqueia

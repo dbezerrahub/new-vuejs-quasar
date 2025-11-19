@@ -31,3 +31,13 @@ Y88b.Y8b88P Y88b 888 888  888      X88 888  888 888
 [ESLint] Found 0 error and 0 warning
 [ESLint] Found 0 error and 0 warning
 [ESLint] Found 0 error and 0 warning
+
+ App • The quasar.config file (or its dependencies) changed. Reading it again...
+ App •  TIP  • 🚀  You are using the --port parameter. It is recommended to use a different devServer port for each Quasar mode to avoid browser cache issues
+ App • Scheduled to apply quasar.config changes in 550ms
+ App • Applying quasar.config file changes...
+
+ App • The quasar.config file (or its dependencies) changed. Reading it again...
+ App •  TIP  • 🚀  You are using the --port parameter. It is recommended to use a different devServer port for each Quasar mode to avoid browser cache issues
+ App • Scheduled to apply quasar.config changes in 550ms
+ App • Applying quasar.config file changes...

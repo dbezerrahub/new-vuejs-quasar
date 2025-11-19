@@ -35,14 +35,19 @@
         </provider>
         <service
             android:name=".CallBlockerService"
-            android:permission="android.permission.BIND_CALL_SCREENING_SERVICE">
+            android:permission="android.permission.BIND_CALL_SCREENING_SERVICE"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.telecom.CallScreeningService" />
             </intent-filter>
         </service>
+
     </application>
 
     <!-- Permissions -->
-
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.CALL_SCREENING" />
 </manifest>
