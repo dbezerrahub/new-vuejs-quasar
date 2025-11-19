@@ -4,10 +4,12 @@ import android.telecom.Call;
 import android.telecom.CallScreeningService;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+
 public class CallBlockerService extends CallScreeningService {
 
     @Override
-    public void onScreenCall(Call.Details details) {
+    public void onScreenCall(@NonNull Call.Details details) {
 
         String incomingNumber = details.getHandle().getSchemeSpecificPart();
 
