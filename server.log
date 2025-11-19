@@ -12,10 +12,10 @@ Y88b.Y8b88P Y88b 888 888  888      X88 888  888 888
  App • Using quasar.config.js in "esm" format
  App •  TIP  • 🚀  You are using the --port parameter. It is recommended to use a different devServer port for each Quasar mode to avoid browser cache issues
 
- » Reported at............ 11/6/2025 8:10:38 PM
+ » Reported at............ 11/19/2025 5:39:50 PM
  » App dir................ /callauth
- » App URL................ https://localhost:443/
-                           https://192.168.0.67:443/
+ » App URL................ http://localhost:80/
+                           http://192.168.0.67:80/
  » Dev mode............... spa
  » Pkg quasar............. v2.18.5
  » Pkg @quasar/app-vite... v2.4.0
@@ -28,23 +28,6 @@ Y88b.Y8b88P Y88b 888 888  888      X88 888  888 888
 [ESLint] Found 0 error and 0 warning
 [ESLint] Found 0 error and 0 warning
 [ESLint] Found 0 error and 0 warning
-
- App • The quasar.config file (or its dependencies) changed. Reading it again...
- App •  TIP  • 🚀  You are using the --port parameter. It is recommended to use a different devServer port for each Quasar mode to avoid browser cache issues
- App • Scheduled to apply quasar.config changes in 550ms
- App • Applying quasar.config file changes...
-
- App • The quasar.config file (or its dependencies) changed. Reading it again...
- App •  TIP  • 🚀  You are using the --port parameter. It is recommended to use a different devServer port for each Quasar mode to avoid browser cache issues
- App • Scheduled to apply quasar.config changes in 550ms
- App • Applying quasar.config file changes...
-
- App • The quasar.config file (or its dependencies) changed. Reading it again...
- App •  TIP  • 🚀  You are using the --port parameter. It is recommended to use a different devServer port for each Quasar mode to avoid browser cache issues
- App • Scheduled to apply quasar.config changes in 550ms
- App • Applying quasar.config file changes...
-
- App • The quasar.config file (or its dependencies) changed. Reading it again...
- App •  TIP  • 🚀  You are using the --port parameter. It is recommended to use a different devServer port for each Quasar mode to avoid browser cache issues
- App • Scheduled to apply quasar.config changes in 550ms
- App • Applying quasar.config file changes...
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning

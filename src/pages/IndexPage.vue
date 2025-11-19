@@ -1,13 +1,22 @@
+<script setup>
+import { ref } from 'vue'
+const ligado = ref(false)
+</script>
+
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    />
+  <q-page class="page-wrapper">
+    <q-toggle v-model="ligado" label="Ativar" color="primary" />
+    <br />
+    08134922924
   </q-page>
 </template>
 
-<script setup>
-//
-</script>
+<style scoped>
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+</style>

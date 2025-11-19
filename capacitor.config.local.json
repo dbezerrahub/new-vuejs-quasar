@@ -1,0 +1,15 @@
+{
+  "appId": "com.callauthapp",
+  "appName": "Callauth",
+  "webDir": "dist/spa",
+  "server": {
+    "url": "http://192.168.0.67",
+    "api_url": "http://192.168.0.67",
+    "allowNavigation": ["http://192.168.0.67", "accounts.google.com", "*.google.com"],
+    "cleartext": true,
+    "androidScheme": "http"
+  },
+  "android": {
+    "useLegacyBridge": true
+  }
+}

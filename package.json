@@ -14,7 +14,7 @@
     "build": "quasar build",
     "postinstall": "quasar prepare",
     "restart": "npm run stop && npm run start",
-    "start": "quasar dev --debug --port 443 > server.log 2>&1 & echo $! > server.pid",
+    "start": "quasar dev --debug --port 80 > server.log 2>&1 & echo $! > server.pid",
     "stop": "[ -f server.pid ] && kill $(cat server.pid) && rm -f server.pid",
     "copy_capacitor_config": "cp capacitor.config.dev.json capacitor.config.json",
     "android": "cp capacitor.config.dev.json capacitor.config.json && quasar build && npx cap sync android && sudo chmod -R 777 /callauth"

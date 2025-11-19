@@ -77,7 +77,7 @@ function toggleLeftDrawer() {
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title> Diogo Bezerra </q-toolbar-title>
+        <q-toolbar-title></q-toolbar-title>
 
         <div>CallAuth v{{ VERSION }}</div>
       </q-toolbar>
