@@ -1,11 +1,11 @@
 {
-  "appId": "com.callauthapp",
-  "appName": "Callauth",
+  "appId": "com.diogobezerradev",
+  "appName": "Diogo Bezerra",
   "webDir": "dist/spa",
   "server": {
-    "url": "https://dev.callauthapp.com",
-    "api_url": "https://devapi.callauthapp.com",
-    "allowNavigation": ["dev.callauthapp.com", "accounts.google.com", "*.google.com"],
+    "url": "https://dev.diogobezerradev.com.br",
+    "api_url": "https://devapi.diogobezerradev.com.br",
+    "allowNavigation": ["dev.diogobezerradev.com.br", "accounts.google.com", "*.google.com"],
     "cleartext": true,
     "androidScheme": "https"
   },

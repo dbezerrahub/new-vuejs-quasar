@@ -1,8 +1,8 @@
 {
-  "name": "personaltrainerapp",
+  "name": "curriculum",
   "version": "0.0.1",
-  "description": "app pessoal para personal trainers",
-  "productName": "Personal",
+  "description": "app pessoal de currículo",
+  "productName": "CV - Diogo Bezerra",
   "author": "Diogo <diogobezerra5@gmail.com>",
   "type": "module",
   "private": true,
@@ -22,7 +22,9 @@
   "dependencies": {
     "@capacitor-community/sqlite": "^7.0.2",
     "@capacitor/android": "^7.4.4",
+    "@capacitor/app": "^7.1.1",
     "@capacitor/core": "^7.4.4",
+    "@capacitor/toast": "^7.0.3",
     "@quasar/extras": "^1.16.4",
     "pinia": "^3.0.3",
     "quasar": "^2.16.0",

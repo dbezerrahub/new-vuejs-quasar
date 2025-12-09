@@ -1,9 +1,10 @@
 <script setup>
 import { ref } from 'vue'
-import EssentialLink from 'components/EssentialLink.vue'
+import LeftMenu from 'components/LeftMenu.vue'
 import { watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { VERSION } from 'src/composables/constants'
+// import { VERSION } from 'src/composables/constants'
+import linksList from '../config/LeftMenuLinks.js'
 
 const route = useRoute()
 
@@ -19,51 +20,6 @@ if (import.meta.hot) {
   )
 }
 
-const linksList = [
-  {
-    title: 'Contatos',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev',
-  },
-  {
-    title: 'Bloqueados',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework',
-  },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev',
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev',
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev',
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev',
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev',
-  },
-]
-
 const leftDrawerOpen = ref(false)
 
 function toggleLeftDrawer() {
@@ -73,13 +29,22 @@ function toggleLeftDrawer() {
 
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
+    <q-header class="q-header">
+      <q-toolbar v-if="true" class="q-toolbar">
+        <q-btn
+          class="btn_menu"
+          dense
+          round
+          icon="menu"
+          aria-label="Menu"
+          @click="toggleLeftDrawer"
+        />
 
         <q-toolbar-title></q-toolbar-title>
-
-        <div>CallAuth v{{ VERSION }}</div>
+        <div class="foto-wrapper">
+          <q-img src="/images/eu.jpg" class="foto-moldura" ratio="1" fit="cover" />
+        </div>
+        <div class="name-wrapper">DIOGO BEZERRA</div>
       </q-toolbar>
     </q-header>
 
@@ -87,7 +52,7 @@ function toggleLeftDrawer() {
       <q-list>
         <!-- <q-item-label header> Essential Links </q-item-label> -->
 
-        <EssentialLink v-for="link in linksList" :key="link.title" v-bind="link" />
+        <LeftMenu v-for="link in linksList" :key="link.title" v-bind="link" />
       </q-list>
     </q-drawer>
 
@@ -96,3 +61,62 @@ function toggleLeftDrawer() {
     </q-page-container>
   </q-layout>
 </template>
+
+<style lang="css" scoped>
+.q-toolbar {
+  background-color: black;
+  background-image: url('/images/bg_toolbar.png');
+  background-size: cover;
+  height: 150px;
+  vertical-align: top;
+}
+
+.btn_menu {
+  align-self: flex-start;
+  margin-top: 8px;
+}
+
+.foto-wrapper {
+  /* border: 1px solid white; */
+  left: 50%;
+  position: absolute;
+  top: 10px;
+  transform: translateX(-50%); /* centraliza */
+}
+.name-wrapper {
+  font-family: 'aqum';
+  font-size: 16px;
+  left: 50%;
+  position: absolute;
+  top: 100px;
+  transform: translateX(-50%); /* centraliza */
+}
+
+.info-wrapper {
+  /* border: 1px solid white; */
+  text-align: center;
+  font-family: 'aqum';
+  font-size: 12px;
+  left: 50%;
+  position: absolute;
+  top: 130px;
+  transform: translateX(-50%); /* centraliza */
+  width: 100%;
+}
+
+.foto-moldura {
+  height: 80px;
+  border-radius: 50%; /* deixa redonda */
+  border: 4px double #fff; /* moldura branca */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* sombra bonita */
+  overflow: hidden; /* importante para o corte ficar perfeito */
+  width: 80px; /* você ajusta o tamanho */
+}
+
+.icons_info {
+  border: 1px solid white;
+  border-radius: 50%; /* deixa redonda */
+  padding: 3px;
+  font-size: 14px;
+}
+</style>

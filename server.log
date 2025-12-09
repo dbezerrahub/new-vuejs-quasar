@@ -12,13 +12,544 @@ Y88b.Y8b88P Y88b 888 888  888      X88 888  888 888
  App • Using quasar.config.js in "esm" format
  App •  TIP  • 🚀  You are using the --port parameter. It is recommended to use a different devServer port for each Quasar mode to avoid browser cache issues
 
- » Reported at............ 12/2/2025 11:59:55 AM
- » App dir................ /personal
+ » Reported at............ 12/8/2025 12:20:11 PM
+ » App dir................ /curriculum
  » App URL................ http://localhost:80/
-                           http://192.168.0.77:80/
+                           http://192.168.0.7:80/
  » Dev mode............... spa
  » Pkg quasar............. v2.18.6
  » Pkg @quasar/app-vite... v2.4.0
  » Browser target......... es2022|firefox115|chrome115|safari14
 
 [ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+ ERROR(ESLint)  Parsing error: Identifier 'linksList' has already been declared (null)
+ FILE  /curriculum/src/layouts/MainLayout.vue:23:6
+
+  [0m[0m
+
+[ESLint] Found 1 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+ ERROR(ESLint)  'VERSION' is defined but never used. (no-unused-vars)
+ FILE  /curriculum/src/layouts/MainLayout.vue:6:10
+
+  [0m [90m 4 |[39m [36mimport[39m { watch } [36mfrom[39m [32m'vue'[39m
+   [90m 5 |[39m [36mimport[39m { useRoute } [36mfrom[39m [32m'vue-router'[39m
+  [31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mVERSION[39m } [36mfrom[39m [32m'src/composables/constants'[39m
+   [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 7 |[39m [36mimport[39m linksList [36mfrom[39m [32m'../config/LeftMenuLinks.js'[39m
+   [90m 8 |[39m
+   [90m 9 |[39m [36mconst[39m route [33m=[39m useRoute()[0m
+
+[ESLint] Found 1 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+ ERROR(ESLint)  'ref' is defined but never used. (no-unused-vars)
+ FILE  /curriculum/src/pages/IndexPage.vue:2:10
+
+  [0m [90m 1 |[39m [33m<[39m[33mscript[39m setup[33m>[39m
+  [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { ref } [36mfrom[39m [32m'vue'[39m
+   [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 3 |[39m [33m<[39m[33m/[39m[33mscript[39m[33m>[39m
+   [90m 4 |[39m
+   [90m 5 |[39m [33m<[39m[33mtemplate[39m[33m>[39m[0m
+
+[ESLint] Found 1 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+1:39:44 PM [vite] Internal server error: [postcss] /curriculum/src/pages/IndexPage.vue?vue&type=style&index=0&scoped=2373a833&lang.css:5:25: Missed semicolon
+  Plugin: vite:css
+  File: /curriculum/src/pages/IndexPage.vue?vue&type=style&index=0&scoped=2373a833&lang.css:13:23
+  3  |    background-color: black;
+  4  |    background-image: url('/images/bg.jpg');
+  5  |    background-size: cover
+     |                          ^
+  6  |    display: flex;
+  7  |    flex-direction: column;
+      at Input.error (/curriculum/node_modules/postcss/lib/input.js:135:16)
+      at Parser.checkMissedSemicolon (/curriculum/node_modules/postcss/lib/parser.js:138:22)
+      at Parser.decl (/curriculum/node_modules/postcss/lib/parser.js:296:12)
+      at Parser.other (/curriculum/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/curriculum/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/curriculum/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/curriculum/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/curriculum/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///curriculum/node_modules/vite/dist/node/chunks/config.js:30144:68)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+4:41:08 PM [vite] Internal server error: [postcss] /curriculum/src/layouts/MainLayout.vue?vue&type=style&index=0&scoped=22686b16&lang.css:2:1: Unclosed block
+  Plugin: vite:css
+  File: /curriculum/src/layouts/MainLayout.vue?vue&type=style&index=0&scoped=22686b16&lang.css:62:0
+  1  |  
+  2  |  .q-header {
+     |  ^
+  3  |    border: 1px solid white;
+  4  |    vertical-align: top;
+      at Input.error (/curriculum/node_modules/postcss/lib/input.js:135:16)
+      at Parser.unclosedBlock (/curriculum/node_modules/postcss/lib/parser.js:575:22)
+      at Parser.endFile (/curriculum/node_modules/postcss/lib/parser.js:335:35)
+      at Parser.parse (/curriculum/node_modules/postcss/lib/parser.js:476:10)
+      at parse (/curriculum/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/curriculum/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/curriculum/node_modules/postcss/lib/processor.js:53:14)
+      at runPostCSS (file:///curriculum/node_modules/vite/dist/node/chunks/config.js:30144:68)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async compilePostCSS (file:///curriculum/node_modules/vite/dist/node/chunks/config.js:30128:6)
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+6:58:41 PM [vite] Internal server error: Element is missing end tag.
+  Plugin: vite:vue
+  File: /curriculum/src/pages/IndexPage.vue:35:15
+  33 |              PESSOAL
+  34 |              <q-card class="q-pa-none card-info">
+  35 |                <q-card-section class="q-pa-none">Olá
+     |                 ^
+  36 |              </q-card>
+  37 |            </div>
+      at createCompilerError (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1364:17)
+      at emitError (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2997:5)
+      at Object.onclosetag (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2364:13)
+      at Tokenizer.stateInClosingTagName (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:785:16)
+      at Tokenizer.parse (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1143:16)
+      at Object.baseParse (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3036:13)
+      at Object.parse (/curriculum/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:910:23)
+      at Object.parse$1 [as parse] (/curriculum/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1801:24)
+      at createDescriptor (file:///curriculum/node_modules/@vitejs/plugin-vue/dist/index.mjs:79:42)
+      at handleHotUpdate (file:///curriculum/node_modules/@vitejs/plugin-vue/dist/index.mjs:1476:25)
+6:58:41 PM [vite] Internal server error: Element is missing end tag.
+  Plugin: vite:vue
+  File: /curriculum/src/pages/IndexPage.vue:35:15
+  33 |              PESSOAL
+  34 |              <q-card class="q-pa-none card-info">
+  35 |                <q-card-section class="q-pa-none">Olá
+     |                 ^
+  36 |              </q-card>
+  37 |            </div>
+      at createCompilerError (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1364:17)
+      at emitError (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2997:5)
+      at Object.onclosetag (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2364:13)
+      at Tokenizer.stateInClosingTagName (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:785:16)
+      at Tokenizer.parse (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1143:16)
+      at Object.baseParse (/curriculum/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3036:13)
+      at Object.parse (/curriculum/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:910:23)
+      at Object.parse$1 [as parse] (/curriculum/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1801:24)
+      at createDescriptor (file:///curriculum/node_modules/@vitejs/plugin-vue/dist/index.mjs:79:42)
+      at handleHotUpdate (file:///curriculum/node_modules/@vitejs/plugin-vue/dist/index.mjs:1476:25)
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
+[ESLint] Found 0 error and 0 warning
+
+ App • The quasar.config file (or its dependencies) changed. Reading it again...
+ App •  TIP  • 🚀  You are using the --port parameter. It is recommended to use a different devServer port for each Quasar mode to avoid browser cache issues
+ App • Scheduled to apply quasar.config changes in 550ms
+ App • Applying quasar.config file changes...
+
+ App • The quasar.config file (or its dependencies) changed. Reading it again...
+ App •  TIP  • 🚀  You are using the --port parameter. It is recommended to use a different devServer port for each Quasar mode to avoid browser cache issues
+ App • Scheduled to apply quasar.config changes in 550ms
+ App • Applying quasar.config file changes...
+[ESLint] Found 0 error and 0 warning
+Files in the public directory are served at the root path.
+Instead of /public/fonts/aqum_classic.ttf, use /fonts/aqum_classic.ttf.
