@@ -1,8 +1,8 @@
 {
-  "name": "curriculum",
+  "name": "projeto",
   "version": "0.0.1",
-  "description": "app pessoal de currículo",
-  "productName": "CV - Diogo Bezerra",
+  "description": "descrição do projeto",
+  "productName": "nome do projeto",
   "author": "Diogo <diogobezerra5@gmail.com>",
   "type": "module",
   "private": true,
