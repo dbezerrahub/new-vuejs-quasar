@@ -1,0 +1,66 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            75:0e:4d:5c:7b:bc:0d:33:03:5e:44:6c:90:a9:aa:f2
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=dev.paynboxapp.com
+        Validity
+            Not Before: Sep  4 20:28:13 2025 GMT
+            Not After : Dec  8 20:28:13 2027 GMT
+        Subject: CN=dev.appvitae.paynboxapp.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:cd:4a:e8:18:e9:11:56:d8:d0:ec:bd:5f:21:72:
+                    02:b3:a1:1f:54:ee:b2:35:4a:1a:a4:31:3f:ff:4b:
+                    74:7a:69:d6:38:d0:de:03:a2:26:9a:6a:6a:f2:6f:
+                    bb:4b:28:7e:d0:01:5e:9e:14:ab:26:92:5c:64:90:
+                    81:50:1d:3d:43:f4:21:30:5a:7b:85:3f:7b:0a:99:
+                    b4:4f:bc:a1:f3:57:3a:0d:32:7f:99:03:11:6b:7b:
+                    af:a5:c8:af:f1:75:f6:1c:3d:a8:96:4f:51:42:4d:
+                    3d:7b:8f:70:bd:28:12:b2:f6:8c:b1:f6:96:e5:3a:
+                    f0:e0:26:2e:e4:e0:b5:90:48:dd:d3:07:db:81:3d:
+                    44:84:31:aa:05:b4:5c:70:00:d1:49:2f:61:6e:d6:
+                    05:17:70:13:57:39:e5:bb:01:df:0f:ba:e1:09:50:
+                    86:b0:db:3d:8d:8a:df:65:c6:0f:ce:50:09:59:22:
+                    3b:14:63:91:c4:f1:c8:7c:b6:58:70:73:ca:97:fc:
+                    d6:cc:28:4c:38:1c:86:1d:0c:0e:36:c6:61:2d:bf:
+                    b8:c4:42:db:8d:fa:87:ec:af:a7:89:00:73:07:5c:
+                    ee:e4:ae:56:64:b2:0b:d6:fc:b5:51:50:ab:10:25:
+                    71:03:75:e1:cd:f8:13:8b:04:9c:60:bf:53:35:e9:
+                    67:99
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                08:16:88:C1:B5:57:9C:99:0C:B1:41:98:F2:28:A2:C1:51:24:DD:FC
+            X509v3 Authority Key Identifier: 
+                keyid:48:9A:98:A2:35:79:B2:9E:9B:AA:A3:12:D4:0E:6B:5C:B6:9E:50:E5
+                DirName:/CN=dev.paynboxapp.com
+                serial:74:67:30:C8:45:25:AD:12:1C:6F:FE:AA:88:E0:AB:5D:2C:C6:57:73
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        3a:8a:99:9e:1b:a0:d8:d7:0d:4b:9c:50:f1:e1:35:74:40:98:
+        92:53:19:d8:76:c1:75:78:1b:b3:aa:fb:ed:08:50:55:73:16:
+        36:54:f3:3c:14:cd:07:e9:1d:19:aa:aa:ba:ce:cb:5e:3f:7c:
+        df:9f:18:94:0c:e7:95:67:72:ea:99:e3:6e:ee:a1:11:03:37:
+        a2:87:7b:e8:15:cb:40:9c:e5:7a:3f:9b:3e:2a:b6:36:1e:b7:
+        9d:d5:97:e4:27:b8:51:b6:51:77:97:b1:a8:08:d4:3f:c2:49:
+        91:9c:6a:33:5e:51:85:a7:dd:2b:9b:89:df:ee:f9:da:86:3e:
+        30:1c:98:10:99:ec:7a:10:9d:3f:00:0e:9b:f0:24:55:75:b0:
+        d1:3c:17:68:23:c3:77:29:62:c1:ba:ab:da:8b:ef:36:e6:73:
+        c1:65:28:e5:92:25:38:0d:26:a4:48:fb:7a:c0:07:23:cf:9d:
+        f3:fe:ab:c0:a3:dc:9c:2c:24:d4:20:82:ce:43:0c:d7:ed:55:
+        90:77:f3:aa:e2:e8:a2:fe:8b:22:a7:3f:ee:79:c2:e4:01:9b:
+        53:85:56:72:3a:20:95:c6:f8:64:4f:71:29:3e:b7:1a:de:35:
+        df:ec:36:f8:dc:7b:83:5f:9b:dd:63:32:09:3b:ed:97:de:16:
+        23:44:b6:ce
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----

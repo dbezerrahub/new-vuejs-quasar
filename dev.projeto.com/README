@@ -1,0 +1,24 @@
+## Projeto com QUASAR
+
+## Defina as variáveis no arquivo .env
+## Para criação do usuário gere um par de chaves com senha (pode usar o puttygen) e substitua as chaves no diretório assets
+## Defina seus certificados ssl em assets e assets/config/default-ssl.conf
+## Faça todas as configurações necessárias nos arquivos em assets/config
+## Copie sua chave configurada no github em assets (id_rsa_github)
+## Acesse o diretório do projeto e execute create.sh
+## Utilize o powershell do windows em modo administrador para permitir a criação do host do projeto no windows ou abra o arquivo diretamente
+	# Adicione o ip do host e o domínio desejado Ex: 192.169.0.45 diogo.paynbox.com
+	# Isso permitirá que ao acessar diogo.paynbox.com direcionará para o host no ip 192.169.0.45
+	# Importante: esse domínio deve ser configurado no apache (virtual host) para o container específico do projeto
+## Para o funcionamento correto do autoload é necessário configurar o websocket em vue.config.js
+module.exports = {
+  devServer: {
+    allowedHosts: 'all',
+    host: '0.0.0.0', // Permite conexões externas
+    port: 8080,      // Porta do servidor
+    https: true,     // HTTPS
+    client: {
+      webSocketURL: 'wss://diogo.paynbox.com:8080/ws', // Configuração websocket
+    },
+  },
+}; 
