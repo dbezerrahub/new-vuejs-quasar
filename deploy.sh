@@ -3,7 +3,7 @@
 # Variáveis
 PRIVATE_KEY_PATH="/home/diogo/.ssh/PRIVATE_KEY.pem"
 REMOTE_USER="diogo"
-REMOTE_HOST="ip"
+REMOTE_HOST="ip do host"
 REMOTE_PATH="/var/www/html/projeto"
 LOCAL_PATH="/callauth/dist"
 SSH_PORT=2220
